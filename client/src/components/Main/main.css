@@ -1,0 +1,9 @@
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+    background-color: gray;
+    border:0.1 black solid
+}

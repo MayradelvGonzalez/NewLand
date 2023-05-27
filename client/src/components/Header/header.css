@@ -1,0 +1,14 @@
+.box{
+    background-color: antiquewhite;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+.lista li{
+    margin: 1em;
+}

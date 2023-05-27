@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.box3{
+    min-height: 10vh;
+    background-color: rgb(57, 56, 56);
+    
+}
+
