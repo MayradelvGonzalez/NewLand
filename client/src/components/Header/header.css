@@ -5,32 +5,25 @@
     width: 100%;
     display: flex;
     position: sticky;
-top: 0px;
+    top: 0px;
     align-items: center;
     justify-content: space-around;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.image{
+.image img{
     width: 30%;
-    height: 30%;
+    
 }
 .lista {
     display: flex;
     flex-direction: row;
-
-
-
 }
 
 .lista li {
     margin: 1em;
     font-weight: bolder;
-
     font-size: large;
     border: 0.1em white solid;
-
-
-
 }
 
 .lista li:hover {
