@@ -1,15 +1,40 @@
-.box{
-    background-color: antiquewhite;
+.box {
+    background-color: #979797;
+    color: #000000;
     min-height: 15vh;
     width: 100%;
     display: flex;
+    position: sticky;
+top: 0px;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.lista{
+.image{
+    width: 30%;
+    height: 30%;
+}
+.lista {
     display: flex;
     flex-direction: row;
+
+
+
 }
-.lista li{
+
+.lista li {
     margin: 1em;
+    font-weight: bolder;
+
+    font-size: large;
+    border: 0.1em white solid;
+
+
+
+}
+
+.lista li:hover {
+    background-color: #DBAC5B;
+    border-radius: 0.5em;
+    transition: 0.8s;
 }

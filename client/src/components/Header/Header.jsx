@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
     return (
-        <div>
-            <ul class="nav justify-content-center box">
-                {/* <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-  </li> */}
+
+        <div className='box'>
+            <div className='image'><img src="/client/src/img/avatar.png" alt="logo" /></div>
+            <ul class="nav justify-content-center lista">
+
                 <li class="nav-item">
                     <a class="nav-link" href="/">Info</a>
                 </li>

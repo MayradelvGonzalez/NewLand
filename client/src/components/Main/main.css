@@ -5,6 +5,7 @@
     align-items: center;
     min-height: 70vh;
     width: 100%;
-    background-color: gray;
-    border:0.1 black solid
+    background-color: #979797;
+    border:0.1 #000000 solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

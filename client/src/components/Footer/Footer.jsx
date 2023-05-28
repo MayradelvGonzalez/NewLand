@@ -5,7 +5,7 @@ import './footer.css';
 function Footer() {
     return (
         <div className='box3'>
-            <h2 className='titulo'>Soy el Footer</h2>    
+            <p className='titulo'>Creado con 💖</p>    
         </div>
     )
 }

@@ -5,7 +5,16 @@
 }
 .box3{
     min-height: 15vh;
-    background-color: rgb(57, 56, 56);
+    /* background-color: #FF6D09; */
+    /* background-color: #00A82D; */
+    background-color: #FDD07A;
+    color: rgb(250, 245, 245);
+    display: flex;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+    justify-content: flex-end;
+    padding: 1em 1em 0 0;
+    width: 100%;
 }
 
