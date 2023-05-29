@@ -2,25 +2,24 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main/Main';
 import Header from './components/Header/Header';
-import Contacto from './components/Contacto/contacto';
-import Proyectos from './components/Proyectos/proyectos';
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import { Routes, Route  } from 'react-router-dom';
+import Contacto from './components/Contacto/Contacto.jsx';
+// import Proyectos from './components/Proyectos/Proyectos';
 
 function App() {
   return (
-    <Router>
     <div className="App">
-          <Header />
-          <Main />
-     <Footer />
-     <Routes>
-     {/* <Route exact path="/" element={ <Info /> }/> */}
-     <Route path="/Contacto" component={ Contacto }/>
-     <Route path="/Proyectos" component = { Proyectos }/>
-     </Routes>
-    </div>
-    </Router>
+     <Header />
+      <Main />
+      <Footer />
+    <Routes>
+      <Route path='/contacto' Component={ Contacto }/>
+
+      
+    </Routes>    </div>
   );
 }
+
+
 
 export default App;

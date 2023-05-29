@@ -2,8 +2,7 @@ import React from 'react';
 import './header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import avatar from '../../assets/images/avatar.png';
-import { Link } from 'react-router-dom';
-
+import { Link as LinkRouter } from 'react-router-dom';
 
 function Header() {
     return (
@@ -16,12 +15,10 @@ function Header() {
                     <a class="nav-link" href="/">Info</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Proyectos">Proyectos</a><i class="bi bi-info-circle"></i>
+                    <a class="nav-link" href="/proyectos">Proyectos</a><i class="bi bi-info-circle"></i>
                 </li>
                 <li class="nav-item">
-       
-                    {/* <a class="nav-link" href='/Contacto'>Contact</a> */}
-                    <Link to='/Contacto'>Contacto</Link>
+                           <LinkRouter to="/contacto">Contacto</LinkRouter>
                 </li>
             </ul>
         </div>

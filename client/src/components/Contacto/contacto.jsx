@@ -2,9 +2,8 @@ import React from 'react';
 import './contacto.css';
 
 function Contacto(){
-    return (
-        <form action="">Formulario</form>
-    )
+return <h2>Contactame!</h2>        
+    
 }
 
 export default Contacto
